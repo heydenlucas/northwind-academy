@@ -2,7 +2,11 @@
 # Name your project! Project names should contain only lowercase characters
 # and underscores. A good package name should reflect your organization's
 # name or the intended use of these models
+<<<<<<< HEAD
 name: 'my_new_project'
+=======
+name: 'dbt_northwind'
+>>>>>>> ef9c49160ea69efbd4586c11606de6d7002823d2
 version: '1.0.0'
 config-version: 2
 
@@ -36,7 +40,21 @@ clean-targets:         # directories to be removed by `dbt clean`
 # using the `{{ config(...) }}` macro.
 
 models:
+<<<<<<< HEAD
   my_new_project:
     # Applies to all files under models/example/
     example:
       +materialized: table
+=======
+  dbt_northwind:
+
+    comercial:
+      intermediate:
+        +materialized: table
+      marts:
+        +materialized: table
+
+    staging:
+      erp:
+        +materialized: view
+>>>>>>> ef9c49160ea69efbd4586c11606de6d7002823d2
