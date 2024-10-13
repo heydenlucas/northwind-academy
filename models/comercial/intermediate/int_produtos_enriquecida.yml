@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: int_produtos_enriquecida
+    description: Tabela de intermediário para enriquecer od dados da dim produtos.
+    columns:
+      - name: PK_PRODUTO
+        description: PK da tabela de produtos.
+        data_tests:
+          - unique
+          - not_null
+ 
