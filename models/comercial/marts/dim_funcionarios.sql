@@ -1,2 +1,9 @@
+with
+    int_funcionarios as (
+        select *
+        from {{ ref('int_funcionarios_preparacao') }}
+    )
+
+
 select *
-from {{ ref('int_funcionarios_preparacao') }}
+from int_funcionarios
