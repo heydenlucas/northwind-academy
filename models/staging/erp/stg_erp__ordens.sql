@@ -1,6 +1,6 @@
 with
     renomeado as (
-        select cast(id as int) pk_pedido
+        select cast(id as int) as pk_pedido
             , cast(employeeid as int) as fk_funcionario
             , cast(customerid as string) as fk_cliente
             , cast(shipvia as int) as fk_transportadora
