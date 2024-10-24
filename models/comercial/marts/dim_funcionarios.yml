@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: dim_funcionarios_preparacao
+  - name: dim_funcionarios
     description: Tabela de intermediário para designar o gerente do funcionário.
     columns:
       - name: PK_FUNCIONARIO
