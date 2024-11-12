@@ -24,5 +24,11 @@ sources:
       - name: _order_
 
       - name: orderdetail
+
+      - name: customer
+
+      - name: shipper
+
+      - name: territory
               
                 
