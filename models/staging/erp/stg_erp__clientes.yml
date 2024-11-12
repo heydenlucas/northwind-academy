@@ -1,0 +1,39 @@
+version: 2
+
+models:
+  - name: stg_erp__clientes
+    description: Tabela de preparação dos dados brutos da clientes.
+    columns:
+      - name: pk_clientes
+        description: Chave primária da tabela.
+        
+      - name: nome_empresa
+        description: Nome da empresa que o cliente fez a compra.
+        
+      - name: nome_cliente
+        description: Nome do cliente.
+        
+      - name: cargo_cliente
+        description: Cargo do cliente.
+        
+      - name: endereco_cliente
+        description: Endereço do cliente.
+        
+      - name: cidade_cliente
+        description: Cidade do cliente.
+        
+      - name: regiao_cliente
+        description: Região do cliente.
+        
+      - name: cep_cliente
+        description: CEP do cliente.
+        
+      - name: pais_cliente
+        description: País onde mora o cliente.
+
+      - name: telefone_cliente
+        description: Telefone do cliente.
+
+      - name: fax_cliente
+        description: FAX do cliente.
+        
